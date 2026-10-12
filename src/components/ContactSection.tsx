@@ -7,6 +7,7 @@ import {
   Copy,
   Check,
   Linkedin,
+  Building2,
 } from 'lucide-react';
 import { PROFILE_DATA } from '../data/portfolioData';
 

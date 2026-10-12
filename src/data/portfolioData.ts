@@ -56,6 +56,7 @@ export const PROFILE_DATA = {
   phone: "0969-312-3870",
   email: "elizabethsamonte2002@gmail.com",
   location: "Quezon, Philippines",
+  company: "Microgenesis Business Systems",
   portfolioUrl: "https://statuesque-sfogliatella-6abd48.netlify.app",
   education: {
     institution: "STI College Lipa",

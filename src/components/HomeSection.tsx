@@ -8,6 +8,7 @@ import {
   Award,
   Calendar,
   CheckCircle2,
+  Building2,
   Linkedin,
 } from 'lucide-react';
 import { PROFILE_DATA } from '../data/portfolioData';
@@ -35,7 +36,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
             {PROFILE_DATA.name}
           </h1>
           <p className="text-sm sm:text-base text-[#5f5e5b] dark:text-[#9b9a97] font-normal">
-            Business Excellence Specialist II & Business Analyst
+            Business Excellence Specialist II
           </p>
 
           {/* Metadata Properties */}
@@ -64,6 +65,11 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
               <Linkedin className="w-3.5 h-3.5" />
               LinkedIn Profile
             </a>
+    
+  <span className="inline-flex items-center gap-1.5 text-xs text-[#787774] dark:text-[#9b9a97]">
+  <Building2 className="w-3.5 h-3.5 text-[#787774] dark:text-[#9b9a97]" />
+  {PROFILE_DATA.company}
+</span>
           </div>
         </div>
       </div>
