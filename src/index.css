@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *, .dark, .dark *));
+
+@layer base {
+  :root {
+    --notion-bg: #ffffff;
+    --notion-sidebar: #f7f7f5;
+    --notion-text: #37352f;
+    --notion-text-muted: #787774;
+    --notion-border: #e9e9e7;
+    --notion-hover: #efefee;
+    --notion-selected: #e8e7e4;
+    --notion-card: #ffffff;
+    --notion-accent: #ea693e;
+    --notion-accent-subtle: #fbf0ea;
+    --notion-purple: #9065b0;
+    --notion-purple-subtle: #f4eefa;
+    color-scheme: light;
+  }
+
+  :root.dark,
+  :root[data-theme="dark"],
+  .dark {
+    --notion-bg: #191919;
+    --notion-sidebar: #202020;
+    --notion-text: #e6e5e3;
+    --notion-text-muted: #9b9a97;
+    --notion-border: #2e2e2e;
+    --notion-hover: #262626;
+    --notion-selected: #303030;
+    --notion-card: #202020;
+    --notion-accent: #f0885e;
+    --notion-accent-subtle: #3a251e;
+    --notion-purple: #a77ec8;
+    --notion-purple-subtle: #32253c;
+    color-scheme: dark;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom Notion scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 119, 116, 0.25);
+  border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-thumb,
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+  background: rgba(155, 154, 151, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 119, 116, 0.45);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover,
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+  background: rgba(155, 154, 151, 0.45);
+}
