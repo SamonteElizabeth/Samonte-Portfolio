@@ -30,7 +30,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: 'skills', label: 'Skills', icon: Layers },
   { id: 'experience', label: 'Experience', icon: Briefcase },
   { id: 'projects', label: 'Projects', icon: FolderGit2 },
-  { id: 'sdlc', label: 'AI & SDLC', icon: GitMerge },
+  { id: 'sdlc', label: 'SDLC', icon: GitMerge },
   { id: 'contact', label: 'Contact', icon: Mail },
 ];
 
