@@ -109,57 +109,12 @@ function PortfolioApp() {
         </section>
       </main>
 
-      {/* Clean Footer */}
-      <footer className="border-t border-[#e9e9e7] dark:border-[#2e2e2e] py-8 px-4 sm:px-8 text-xs text-[#787774] dark:text-[#9b9a97] transition-colors mt-12 bg-[#faf8f5] dark:bg-[#1c1c1c]">
-        <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
-          <div className="flex items-center gap-2">
-            <span className="font-semibold text-[#37352f] dark:text-[#e6e5e3]">
-              {PROFILE_DATA.name}
-            </span>
-            <span>·</span>
-            <span>Business Excellence Specialist II & Business Analyst</span>
-            <span>·</span>
-            <span className="text-[#37352f] dark:text-[#e6e5e3] font-medium">Magna Cum Laude</span>
-          </div>
-
-          <div className="flex items-center gap-4 text-xs font-medium">
-            <button
-              onClick={() => handleNavigate('about')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              About
-            </button>
-            <button
-              onClick={() => handleNavigate('skills')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              Skills
-            </button>
-            <button
-              onClick={() => handleNavigate('experience')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              Experience
-            </button>
-            <button
-              onClick={() => handleNavigate('projects')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              Projects
-            </button>
-            <button
-              onClick={() => handleNavigate('sdlc')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              AI & SDLC
-            </button>
-            <button
-              onClick={() => handleNavigate('contact')}
-              className="hover:text-[#37352f] dark:hover:text-[#e6e5e3] transition-colors cursor-pointer"
-            >
-              Contact
-            </button>
-          </div>
+      {/* Footer */}
+      <footer className="border-t border-[#e9e9e7] dark:border-[#2e2e2e] py-6 px-4 sm:px-8 text-xs text-[#787774] dark:text-[#9b9a97] transition-colors mt-12 bg-[#faf8f5] dark:bg-[#1c1c1c]">
+        <div className="max-w-5xl mx-auto text-center">
+          <span className="font-medium text-[#787774] dark:text-[#9b9a97] tracking-wider">
+            Portfolio
+          </span>
         </div>
       </footer>
     </div>
