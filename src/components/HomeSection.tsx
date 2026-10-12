@@ -56,7 +56,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate }) => {
             </span>
             <span>·</span>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3B7N7NCQT6RsSNZ4Rka1gMLw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 text-[#0077b5] hover:underline"

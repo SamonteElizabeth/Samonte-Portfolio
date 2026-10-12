@@ -173,7 +173,7 @@ export const ContactSection: React.FC = () => {
 
           <div className="pt-2 border-t border-[#e9e9e7]/60 dark:border-[#2e2e2e]/60">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/public-profile/settings/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3B7N7NCQT6RsSNZ4Rka1gMLw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xs font-medium bg-[#f7f7f5] dark:bg-[#262626] border border-[#e9e9e7] dark:border-[#333333] text-[#37352f] dark:text-[#e6e5e3] hover:bg-[#efefee] dark:hover:bg-[#303030] transition-colors w-full justify-center"
