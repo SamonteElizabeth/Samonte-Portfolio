@@ -1,3 +1,6 @@
+import chronosPreviewImg from '../assets/images/chronos_preview_1791783514393.jpg';
+import logistraPreviewImg from '../assets/images/logistra_preview_1791784003981.jpg';
+
 export interface WorkProject {
   id: string;
   name: string;
@@ -193,30 +196,30 @@ export const WORK_PROJECTS: WorkProject[] = [
     category: "Project & Task Management",
     role: "Business Requirements & Workflow Architecture",
     iconName: "Clock",
-    keyDeliverables: ["BRD", "Task Flow Models", "UAT Signoff Matrix"],
-    imageUrl: "/src/assets/images/chronos_preview_1791783514393.jpg",
+    keyDeliverables: ["Documentation", "Process Flow", "Front End"],
+    imageUrl: chronosPreviewImg,
   },
   {
     id: "chronos-v2",
     name: "Chronos v2",
     description: "Opportunity and presales management system.",
     isDeployed: false,
-    category: "Presales & CRM",
+    category: "Presales Process",
     role: "Presales Pipeline Modeling & Requirements",
     iconName: "TrendingUp",
-    keyDeliverables: ["Functional Specs", "Opportunity Lifecycle Map", "Prototype Review"],
-    imageUrl: "/src/assets/images/chronos_preview_1791783514393.jpg",
+    keyDeliverables: ["Scoping with the client", "Technical Documentaton", "Prototype Review"],
+    imageUrl: chronosPreviewImg,
   },
   {
     id: "chronos-v3",
     name: "Chronos v3",
     description: "Task execution and employee utilization tracking system.",
     isDeployed: false,
-    category: "Workforce & Operations",
+    category: "Daily Report Activity",
     role: "Utilization Metric Definitions & User Stories",
     iconName: "Users",
     keyDeliverables: ["Utilization Calculation Logic", "Execution Dashboards Spec"],
-    imageUrl: "/src/assets/images/chronos_preview_1791783514393.jpg",
+    imageUrl: chronosPreviewImg,
   },
   {
     id: "logistra-v1",
@@ -226,8 +229,8 @@ export const WORK_PROJECTS: WorkProject[] = [
     category: "Logistics & Inventory",
     role: "Inventory State Transitions & Requirements Document",
     iconName: "Boxes",
-    keyDeliverables: ["BRD", "Inventory State Machine", "UAT Defect Tracking"],
-    imageUrl: "/src/assets/images/logistra_preview_1791784003981.jpg",
+    keyDeliverables: ["Technical Documentation", "Support", "Deployment"],
+    imageUrl: logistraPreviewImg,
   },
   {
     id: "proj-lab-renewal-care",
