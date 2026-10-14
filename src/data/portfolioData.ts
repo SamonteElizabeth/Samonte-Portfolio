@@ -1,6 +1,3 @@
-import chronosPreviewImg from '../assets/images/chronos_preview_1791783514393.jpg';
-import logistraPreviewImg from '../assets/images/logistra_preview_1791784003981.jpg';
-
 export interface WorkProject {
   id: string;
   name: string;
@@ -189,48 +186,44 @@ export const SKILL_MODULES: SkillModule[] = [
 
 export const WORK_PROJECTS: WorkProject[] = [
   {
-    id: "chronos-v1",
-    name: "Chronos v1",
+    id: "proj-task-management",
+    name: "Project & Task Management",
     description: "Project management and task tracking system.",
     isDeployed: true,
     category: "Project & Task Management",
     role: "Business Requirements & Workflow Architecture",
     iconName: "Clock",
     keyDeliverables: ["Documentation", "Process Flow", "Front End"],
-    imageUrl: chronosPreviewImg,
   },
   {
-    id: "chronos-v2",
-    name: "Chronos v2",
+    id: "presales-process",
+    name: "Presales Process",
     description: "Opportunity and presales management system.",
     isDeployed: false,
     category: "Presales Process",
     role: "Presales Pipeline Modeling & Requirements",
     iconName: "TrendingUp",
     keyDeliverables: ["Scoping with the client", "Technical Documentaton", "Prototype Review"],
-    imageUrl: chronosPreviewImg,
   },
   {
-    id: "chronos-v3",
-    name: "Chronos v3",
+    id: "daily-report-activity",
+    name: "Daily Report Activity",
     description: "Task execution and employee utilization tracking system.",
     isDeployed: false,
     category: "Daily Report Activity",
     role: "Utilization Metric Definitions & User Stories",
     iconName: "Users",
     keyDeliverables: ["Utilization Calculation Logic", "Execution Dashboards Spec"],
-    imageUrl: chronosPreviewImg,
   },
   {
-    id: "logistra-v1",
-    name: "Logistra v1",
+    id: "rental-inventory-management",
+    name: "Rental & Inventory Management",
     description: "Rental and inventory management system.",
     isDeployed: true,
     category: "Logistics & Inventory",
     role: "Inventory State Transitions & Requirements Document",
     iconName: "Boxes",
     keyDeliverables: ["Technical Documentation", "Support", "Deployment"],
-    imageUrl: logistraPreviewImg,
   },
   {
     id: "proj-lab-renewal-care",
